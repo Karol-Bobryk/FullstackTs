@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon main.ts",
     "lint": "eslint .",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "start": "./node_modules/.bin/ts-node index.ts"
   },
   "husky": {
     "hooks": {
@@ -29,6 +30,8 @@
     "express": "^4.18.2",
     "module-alias": "^2.2.3",
     "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "tsc-node": "^0.0.3",
     "typescript": "^5.1.6"
   },
   "devDependencies": {
